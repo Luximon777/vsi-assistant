@@ -9,7 +9,7 @@ freins = st.text_area("Freins identifiés")
 if st.button("Générer le compte rendu"):
 
     texte = f"""
-Compte rendu entretien diagnostic
+Compte rendu entretien diagnostic VSI
 
 Participant : {nom}
 
@@ -20,8 +20,8 @@ Freins identifiés :
 {freins}
 
 Synthèse :
-Le participant s'engage dans la prestation VSI afin de renforcer sa
-confiance et préparer ses futurs entretiens professionnels.
+Le participant s'engage dans la prestation VSI afin de renforcer
+sa confiance et préparer ses futurs entretiens professionnels.
 """
 
     st.write(texte)
